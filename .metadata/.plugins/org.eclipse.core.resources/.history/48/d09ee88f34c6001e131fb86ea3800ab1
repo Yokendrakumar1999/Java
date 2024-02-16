@@ -1,0 +1,11 @@
+package com.rrs.entiy;
+
+public class Customer {
+
+	private int cid;
+	private String cname;
+	private long cphone;
+	private Address a;
+	private double camt;
+	
+}

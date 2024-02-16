@@ -1,0 +1,5 @@
+package com.rrs.service;
+
+public interface RRSservice {
+
+}

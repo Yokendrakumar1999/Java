@@ -1,0 +1,74 @@
+package com.rrs.serviceImptn;
+
+import java.util.Scanner;
+
+import com.rrs.entity.Customer;
+import com.rrs.service.RRSservice;
+
+public class RRSserviceImptn implements RRSservice {
+
+	{
+		for(int i=101;i<108;i++)
+		{
+			ac.put(i, null);
+		}
+	}
+
+	@Override
+	public void roomInfo() {
+		System.out.println("=========Room Details============");
+		System.out.println("==========AC Rooms=============");
+		System.out.println("1.AC\n2.TV\n3.WIFI\n4.Fridge");
+		System.out.println("Price:2500/day");
+
+	}
+
+
+	@Override
+	public void checkAvailability() {
+		System.out.println("======Ac Rooms=====");
+		int c=0;
+		for(int key:ac.keySet()) {   //[101.102,....108]
+			if(ac.get(key)==null)
+			{
+				System.out.print(key+" ");
+				c++;
+			}
+		}
+		if(c==0) {
+			System.out.println(" All room are occupied....!");
+		}
+		System.out.println();
+	}
+   Scanner s=new Scanner(System.in);
+	@Override
+	public void checkIn() {
+	    System.out.println("=======Check-In=====");
+	    System.out.println("====Room Details===");
+	    System.out.println("1.AC\n2.Non-AC\n3.Deluxe");
+	    System.out.println("Enter your Option:-");
+	    int op=s.nextInt();
+	    System.out.println("Please enter the room:-");
+	    int roomno=s.nextInt();
+	switch (op) {
+	case 1: if(ac.containsKey(roomno)&&ac.get(roomno)==null) {
+		ac.put(roomno,new Customer(roomno, null, roomno, null, roomno));
+		System.out.println("Allocate");
+	}
+	else {
+	System.out.println("Invalid roomno or room is not available..");
+	}
+		
+		break;
+case 2:  System.out.println("Need to be Implented...!");
+		
+		break;
+case 3:System.out.println("Need to be Implented...!");
+	
+	break;
+
+	default:System.out.println("Invaild Option...!");
+		break;
+	}    
+	}
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.basic.Sample"/>
+    <fullyQualifiedTypeName name="java.rmi.server.RemoteStub"/>
+    <fullyQualifiedTypeName name="com.Sample"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="org.company.google.Employee"/>
+    <fullyQualifiedTypeName name="char"/>
+    <fullyQualifiedTypeName name="LinkedList.LinkedListImpl"/>
+    <fullyQualifiedTypeName name="java.net.ConnectException"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="LinkedList.Node"/>
+    <fullyQualifiedTypeName name="tree.BTSImpln"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="tree.Node"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.rrs.service.RRSservice"/>
+    <fullyQualifiedTypeName name="com.rrs.serviceImptn.RRSserviceImptn"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.rrs.entity.Address"/>
+    <fullyQualifiedTypeName name="com.rrs.entity.Customer"/>
+</qualifiedTypeNameHistroy>

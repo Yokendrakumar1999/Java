@@ -1,0 +1,13 @@
+package com.rrs.app;
+
+import com.rrs.entity.Address;
+import com.rrs.entity.Customer;
+
+public class RRSapp {
+
+	public static void main(String[] args) {
+		Address a=new Address("221","btm layout", 561009);
+		Customer c=new Customer(501, "yogi", 996565856,a , 5000.5);
+		System.out.println(c);
+	}
+}

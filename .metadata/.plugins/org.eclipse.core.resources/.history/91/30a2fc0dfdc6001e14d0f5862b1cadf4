@@ -1,0 +1,45 @@
+package com.rrs.serviceImptn;
+
+import com.rrs.service.RRSservice;
+
+public class RRSserviceImptn implements RRSservice {
+
+	{
+		for(int i=101;i<108;i++)
+		{
+			ac.put(i, null);
+		}
+	}
+
+	@Override
+	public void roomInfo() {
+		System.out.println("=========Room Details============");
+		System.out.println("==========AC Rooms=============");
+		System.out.println("1.AC\n2.TV\n3.WIFI\n4.Fridge");
+		System.out.println("Price:2500/day");
+
+	}
+
+
+	@Override
+	public void checkAvailability() {
+		System.out.println("======Ac Rooms=====");
+		int c=0;
+		for(int key:ac.keySet()) {   //[101.102,....108]
+			if(ac.get(key)==null)
+			{
+				System.out.println(key+" ");
+				c++;
+			}
+		}
+		if(c==0) {
+			System.out.println(" All room are occupied....!");
+		}
+		System.out.println();
+	}
+
+	@Override
+	public void checkIn() {
+		System.out.println();
+	}
+}

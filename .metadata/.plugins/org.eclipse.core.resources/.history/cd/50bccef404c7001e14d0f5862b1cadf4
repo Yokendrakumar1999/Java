@@ -1,0 +1,17 @@
+package com.rrs.service;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+import com.rrs.entity.Customer;
+
+public interface RRSservice {
+
+	LinkedHashMap<Integer, Customer> ac=new LinkedHashMap<Integer, Customer>();
+	ArrayList<Customer> l1=new ArrayList<Customer>();
+	
+	void roomInfo();
+	void checkAvailability();
+	void checkIn();
+	
+}
